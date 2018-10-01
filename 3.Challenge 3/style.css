@@ -1,5 +1,3 @@
-/* General setup */
-/* Remember to always comment*/
 
 * {
   box-sizing: border-box;
@@ -8,21 +6,18 @@
 html {
   font-family: sans-serif;
 }
-
+/* -lightblue to white gradient */
+header {
+  background-image: linear-gradient(lightblue,white);
+  width: 100%;
+  height: 150;
+}
 body {
+
   margin: 0;
   background: #ccc;
 }
-header {
-    width:1350px;
-    height: 100px;
-   
-}
-Footer {
-    width:1350px;
-    height: 100px;
-   
-}
+  
 
 article {
   width: 210mm;
@@ -36,19 +31,21 @@ address {
   bottom: 8mm;
   right: 20mm;
 }
-
+  /* Company name and my name */
 h1 {
+  background-color: black;
+  border-radius: 90%;
   position: absolute;
   top: 12mm;
   left: 20mm;
-  width: 128px;
-  height: 128px;
-  font-size: 20px;
+  width: 208px;
+  height: 138px;
+  font-size: 30px;
   letter-spacing: 1px;
   text-align: center;
-  padding: 44px 0;
-  color: white;
+  padding: 33px 0;
+  color: firebrick;
   text-shadow: 1px 1px 1px black;
 }
 
-/* Write your CSS below here */
+
